@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "D3DShot"
-version = "0.1.5"
+version = "0.1.6"
 description = "Extremely Fast and Robust Screen Capture on Windows with the Desktop Duplication API"
 readme = "README.md"
 authors = ["Nicholas Brochu <nicholas@serpent.ai>"]
@@ -29,12 +29,12 @@ include = []
 [tool.poetry.dependencies]
 python = ">=3.6"
 
-comtypes = "~1.1.7"
-pillow = "~7.1.2"
+comtypes = ">=1.1.7"
+pillow = ">=7.1.2"
 
 [tool.poetry.dev-dependencies]
-ipython = "~7.14"
-notebook = "~6.0"
+ipython = ">=7.14"
+notebook = ">=6.0"
 
 [tool.black]
 line-length = 99
